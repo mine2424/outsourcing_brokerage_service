@@ -22,9 +22,9 @@ const NavLink = [
 
 export const Header: FC = () => {
   return (
-    <div className="flex items-center justify-between bg-blue-300 p-4">
+    <nav className="flex items-center justify-between bg-blue-300 p-4">
       <Image src="/vercel.svg" alt="/vercel.svg" width={100} height={50} />
-      <nav className="flex items-center justify-between">
+      <ul className="flex items-center justify-between">
         {NavLink.map((item, index) => (
           <Scroll
             key={index}
@@ -32,10 +32,10 @@ export const Header: FC = () => {
             smooth={true}
             className="mr-12 font-bold hover:cursor-pointer"
           >
-            {item.text}
+            <li>{item.text}</li>
           </Scroll>
         ))}
-      </nav>
-    </div>
+      </ul>
+    </nav>
   );
 };
