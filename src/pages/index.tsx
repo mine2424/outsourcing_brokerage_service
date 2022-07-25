@@ -1,3 +1,4 @@
+import { ContactButton } from "@/components/features/ContactButton";
 import { Problem } from "@/components/features/Problem";
 import { ServiceDescription } from "@/components/features/ServiceDescription";
 import { Layout } from "@/components/layout/Layout";
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       </div>
       <Problem />
       <ServiceDescription />
+      <ContactButton />
     </Layout>
   );
 };
