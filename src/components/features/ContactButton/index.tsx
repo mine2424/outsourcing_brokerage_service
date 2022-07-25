@@ -8,6 +8,7 @@ type ContactButtonListType = {
 };
 
 const ContactButtonList: ContactButtonListType[] = [
+  // NOTE: 文言は後で変更する
   {
     title: "すぐにサービスをご利用したい方はこちらから",
     buttonText: "いきなり追加",
