@@ -1,4 +1,5 @@
 import { Problem } from "@/components/features/Problem";
+import { ServiceDescription } from "@/components/features/ServiceDescription";
 import { Layout } from "@/components/layout/Layout";
 import type { NextPage } from "next";
 
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
         </div>
       </div>
       <Problem />
+      <ServiceDescription />
     </Layout>
   );
 };
