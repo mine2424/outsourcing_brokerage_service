@@ -23,6 +23,7 @@ const NavLink = [
 export const Header: FC = () => {
   return (
     <nav className="flex items-center justify-between bg-blue-300 p-4">
+      {/* NOTE: 一旦仮でVercelのアイコンを表示 */}
       <Image src="/vercel.svg" alt="/vercel.svg" width={100} height={50} />
       <ul className="flex items-center justify-between">
         {NavLink.map((item, index) => (

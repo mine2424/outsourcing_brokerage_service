@@ -7,6 +7,7 @@ const Home: NextPage = () => {
     <Layout>
       <div className="bg-blue-300">
         <div className="mx-auto mb-14 flex h-[450px] max-w-6xl items-center justify-center px-5 text-9xl">
+          {/* NOTE: 一言タイトルを後から編集 */}
           一言タイトル
         </div>
       </div>
